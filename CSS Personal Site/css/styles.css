@@ -1,0 +1,132 @@
+/* style palettes 174976 */
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+h1 {
+    margin: 50px auto 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 7rem; /* 16 pixel = 1em = 100%; r means root, disregard parents' setting*/
+    color: #424874;
+}
+
+h2 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 2.1rem;
+    color: #424874;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Exo 2', sans-serif;
+    color: #a6b1e1;
+    font-size: 1.3rem;
+}
+
+hr {
+    margin: 0px auto 70px;
+    border-style: none none dotted; 
+    border-color: #dcd6f7;
+    border-width: 7px;
+    width: 5%;
+}
+
+.top-container {
+    background-color: #f4eeff;
+    padding-top: 150px;
+    position: relative;
+}
+
+
+.bottom-container {
+    background-color: #a6b1e1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.top-cloud{
+    position: absolute;
+    top: 100px;
+    left: 65%;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 25%;
+    top: 450px;
+}
+
+.profile {
+    margin: 50px auto 80px;
+    width: 26%;
+    line-height: 2;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-code{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-piano{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-me {
+    width: 40%;
+    line-height: 2;
+    margin: 50px auto 100px;
+}
+
+.contact-mes {
+    margin: 20px auto 60px;
+}
+
+.footer-link {
+    margin: 0 20px;
+    color: #424874;
+    text-decoration: none;
+}
+
+.btn {
+    background: #a685e2;
+    background-image: -webkit-linear-gradient(top, #a685e2, #6155a6);
+    background-image: -moz-linear-gradient(top, #a685e2, #6155a6);
+    background-image: -ms-linear-gradient(top, #a685e2, #6155a6);
+    background-image: -o-linear-gradient(top, #a685e2, #6155a6);
+    background-image: linear-gradient(to bottom, #a685e2, #6155a6);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'IBM Plex Serif', serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+    background: #a56ac4;
+    background-image: -webkit-linear-gradient(top, #a56ac4, #8160bd);
+    background-image: -moz-linear-gradient(top, #a56ac4, #8160bd);
+    background-image: -ms-linear-gradient(top, #a56ac4, #8160bd);
+    background-image: -o-linear-gradient(top, #a56ac4, #8160bd);
+    background-image: linear-gradient(to bottom, #a56ac4, #8160bd);
+    text-decoration: none;
+}
+
+.see_link:hover {
+    font-size: 20px;
+}
